@@ -1,0 +1,26 @@
+@media (max-width: 991px){
+    .catagoris{
+        flex-flow: wrap;
+    }
+    .aaa{
+        max-width: 0 150px;
+    }
+    .content-area{
+        flex-flow: wrap;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .end-items p{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 574px){
+    footer p{
+        margin-left: 40px;
+    }
+}
