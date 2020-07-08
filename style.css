@@ -1,0 +1,109 @@
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: #F0FFF0;
+    padding: 20px 0 60px;
+}
+header h1{
+    font-weight: 700;
+}
+header p{
+    margin: 15px 0 30px;
+    color: #6C6B6B;
+}
+header small{
+    color: #FD511A;
+    margin: 20px 0 15px;
+    display: block;
+}
+header span{
+    color: #21B573;
+}
+.coustomise-button{
+    border-radius: 20px;
+    background-color: #21B573;
+    border: none;
+}
+/* header-arae end */
+
+.start-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    margin: 40px auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+.start-holder:hover{
+    box-shadow: 10px 10px 40px lightgrey;
+    background-color: white;
+}
+.start-holder h5{
+    margin: 15px auto 0;
+}
+/* start-content end */
+
+.title-area h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 30px auto;
+}
+.card{
+    margin: 30px;
+    border-radius: 10px;
+    justify-content: space-around;
+    transition: .5s;
+}
+.card:hover{
+    box-shadow: 10px 10px 40px lightgrey;
+    transform: scale(1.1);
+}
+.card-image{
+    margin: 18px;
+}
+.card-body button{
+    margin: 10px 0 20px;
+}
+.card-text small{
+    font-size: 13px;
+    font-weight: bold;
+}
+.icon{
+    margin-left: 5%;
+}
+/* middle-content end */
+
+.end-content{
+    margin-bottom: 80px;
+}
+.end-title h2{
+    text-align: center;
+    font-weight: 800;
+    margin: 50px auto;
+}
+/* section-area end */
+
+footer{
+    padding: 80px 0 40px;
+    background-color: #282531;
+    color: white;
+}
+footer ul li{
+    list-style: none;
+    cursor: pointer;
+}
+footer ul li:hover{
+    color: #6D899F;
+}
+.copyright{
+    text-align: center;
+    margin-top: 80px;
+}
+/* footer-area end */
