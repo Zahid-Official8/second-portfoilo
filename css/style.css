@@ -56,9 +56,8 @@ header span{
     margin: 30px auto;
 }
 .card{
-    margin: 30px;
+    margin: 0 10px;
     border-radius: 10px;
-    justify-content: space-around;
     transition: .5s;
 }
 .card:hover{
